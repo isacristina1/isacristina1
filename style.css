@@ -1,0 +1,33 @@
+
+
+div {
+background: url(https://img.olhardigital.com.br/wp-content/uploads/2020/12/Satit-Sewtiw.Shutterstock.jpg);
+
+height:100vh; 
+
+width: 100vw;
+color: black;
+background-size:cover ;
+text-align:center ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.btn {
+    width: 200px;
+    background:transparent;
+    text-transform:uppercase ;
+    transition: 1s ease-in-out;
+    border: 1px solid blue;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.btn:hover{
+    background:white;
+    color:blueviolet;
+}
